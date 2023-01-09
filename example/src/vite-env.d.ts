@@ -1,0 +1,1 @@
+/// <reference appTypes="vite/client" />

@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@appTypes/*": [
+        "src/appTypes/*"
+      ],
+      "@requests/*": [
+        "src/requests/*"
+      ],
+      "@providers/*": [
+        "src/providers/*"
+      ],
+      "@commons/*": [
+        "src/commons/*"
+      ],
+      "@authProviders/*": [
+        "src/authProviders/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@storage/*": [
+        "src/storage/*"
+      ]
+    }
+  },
+  "include": [
+    "./src"
+  ]
+}
